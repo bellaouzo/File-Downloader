@@ -35,8 +35,6 @@ public class DownloadItem : IProgressReporter
         TotalBytes = totalBytes;
         Percentage = percentage;
 
-        // Only recalculate speed every 500ms — doing it every chunk made the number
-        // jump around too fast to read (tiny elapsed time = huge variance in bytes/sec)
         var now = DateTime.UtcNow;
         if (_lastSpeedCheck == DateTime.MinValue)
         {
@@ -66,9 +64,6 @@ public class DownloadItem : IProgressReporter
         StateChanged?.Invoke(this, EventArgs.Empty);
     }
 
-    // Called as soon as a gate slot is acquired — before the HTTP request starts.
-    // This makes all queued items flip to Downloading simultaneously instead of
-    // waiting for the first chunk to arrive from each server.
     internal void MarkStarting()
     {
         Status = DownloadStatus.Downloading;
