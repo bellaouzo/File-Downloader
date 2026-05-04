@@ -1,0 +1,28 @@
+C:\Users\gregp\Documents\Claude\Projects\C# Project Presentation\FileDownloader\bin\Debug\net9.0-windows\FileDownloader.exe
+C:\Users\gregp\Documents\Claude\Projects\C# Project Presentation\FileDownloader\bin\Debug\net9.0-windows\FileDownloader.deps.json
+C:\Users\gregp\Documents\Claude\Projects\C# Project Presentation\FileDownloader\bin\Debug\net9.0-windows\FileDownloader.runtimeconfig.json
+C:\Users\gregp\Documents\Claude\Projects\C# Project Presentation\FileDownloader\bin\Debug\net9.0-windows\FileDownloader.dll
+C:\Users\gregp\Documents\Claude\Projects\C# Project Presentation\FileDownloader\bin\Debug\net9.0-windows\FileDownloader.pdb
+C:\Users\gregp\Documents\Claude\Projects\C# Project Presentation\FileDownloader\obj\Debug\net9.0-windows\FileDownloader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gregp\Documents\Claude\Projects\C# Project Presentation\FileDownloader\obj\Debug\net9.0-windows\FileDownloader.AssemblyInfoInputs.cache
+C:\Users\gregp\Documents\Claude\Projects\C# Project Presentation\FileDownloader\obj\Debug\net9.0-windows\FileDownloader.AssemblyInfo.cs
+C:\Users\gregp\Documents\Claude\Projects\C# Project Presentation\FileDownloader\obj\Debug\net9.0-windows\FileDownloader.csproj.CoreCompileInputs.cache
+C:\Users\gregp\Documents\Claude\Projects\C# Project Presentation\FileDownloader\obj\Debug\net9.0-windows\FileDownloader.dll
+C:\Users\gregp\Documents\Claude\Projects\C# Project Presentation\FileDownloader\obj\Debug\net9.0-windows\refint\FileDownloader.dll
+C:\Users\gregp\Documents\Claude\Projects\C# Project Presentation\FileDownloader\obj\Debug\net9.0-windows\FileDownloader.pdb
+C:\Users\gregp\Documents\Claude\Projects\C# Project Presentation\FileDownloader\obj\Debug\net9.0-windows\FileDownloader.genruntimeconfig.cache
+C:\Users\gregp\Documents\Claude\Projects\C# Project Presentation\FileDownloader\obj\Debug\net9.0-windows\ref\FileDownloader.dll
+C:\Users\gregp\Desktop\Code Projects\School\C#\C# Project Presentation\bin\Debug\net9.0-windows\FileDownloader.exe
+C:\Users\gregp\Desktop\Code Projects\School\C#\C# Project Presentation\bin\Debug\net9.0-windows\FileDownloader.deps.json
+C:\Users\gregp\Desktop\Code Projects\School\C#\C# Project Presentation\bin\Debug\net9.0-windows\FileDownloader.runtimeconfig.json
+C:\Users\gregp\Desktop\Code Projects\School\C#\C# Project Presentation\bin\Debug\net9.0-windows\FileDownloader.dll
+C:\Users\gregp\Desktop\Code Projects\School\C#\C# Project Presentation\bin\Debug\net9.0-windows\FileDownloader.pdb
+C:\Users\gregp\Desktop\Code Projects\School\C#\C# Project Presentation\obj\Debug\net9.0-windows\FileDownloader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gregp\Desktop\Code Projects\School\C#\C# Project Presentation\obj\Debug\net9.0-windows\FileDownloader.AssemblyInfoInputs.cache
+C:\Users\gregp\Desktop\Code Projects\School\C#\C# Project Presentation\obj\Debug\net9.0-windows\FileDownloader.AssemblyInfo.cs
+C:\Users\gregp\Desktop\Code Projects\School\C#\C# Project Presentation\obj\Debug\net9.0-windows\FileDownloader.csproj.CoreCompileInputs.cache
+C:\Users\gregp\Desktop\Code Projects\School\C#\C# Project Presentation\obj\Debug\net9.0-windows\FileDownloader.dll
+C:\Users\gregp\Desktop\Code Projects\School\C#\C# Project Presentation\obj\Debug\net9.0-windows\refint\FileDownloader.dll
+C:\Users\gregp\Desktop\Code Projects\School\C#\C# Project Presentation\obj\Debug\net9.0-windows\FileDownloader.pdb
+C:\Users\gregp\Desktop\Code Projects\School\C#\C# Project Presentation\obj\Debug\net9.0-windows\FileDownloader.genruntimeconfig.cache
+C:\Users\gregp\Desktop\Code Projects\School\C#\C# Project Presentation\obj\Debug\net9.0-windows\ref\FileDownloader.dll
