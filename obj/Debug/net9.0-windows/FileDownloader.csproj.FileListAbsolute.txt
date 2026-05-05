@@ -26,3 +26,4 @@ C:\Users\gregp\Desktop\Code Projects\School\C#\C# Project Presentation\obj\Debug
 C:\Users\gregp\Desktop\Code Projects\School\C#\C# Project Presentation\obj\Debug\net9.0-windows\FileDownloader.pdb
 C:\Users\gregp\Desktop\Code Projects\School\C#\C# Project Presentation\obj\Debug\net9.0-windows\FileDownloader.genruntimeconfig.cache
 C:\Users\gregp\Desktop\Code Projects\School\C#\C# Project Presentation\obj\Debug\net9.0-windows\ref\FileDownloader.dll
+C:\Users\gregp\Desktop\Code Projects\School\C#\C# Project Presentation\obj\Debug\net9.0-windows\FileDownloader.sourcelink.json
