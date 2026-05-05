@@ -10,6 +10,9 @@ public class DownloadQueueManager
     private readonly List<DownloadItem> _items = [];
     public IReadOnlyList<DownloadItem> Items => _items.AsReadOnly();
 
+    // Gate lives here instead of inside StartPending so it stays alive between calls —
+    // learned this the hard way: a new semaphore each time means adding URLs mid-download
+    // ignores the 3-slot limit entirely
     private readonly SemaphoreSlim _gate = new(MaxConcurrentDownloads, MaxConcurrentDownloads);
     private CancellationTokenSource _cts = new();
 
@@ -25,6 +28,8 @@ public class DownloadQueueManager
         return true;
     }
 
+    // Fire off all pending items — ones past the 3-slot limit just sit at WaitAsync
+    // until something finishes and releases a slot
     public void StartPending()
     {
         foreach (DownloadItem item in _items.Where(i => i.Status == DownloadStatus.Pending).ToList())
@@ -42,6 +47,7 @@ public class DownloadQueueManager
         catch (OperationCanceledException)
         {
             item.MarkCancelled();
+            DeletePartialFile(item.DestinationPath);
             return;
         }
 
@@ -54,6 +60,7 @@ public class DownloadQueueManager
         catch (OperationCanceledException)
         {
             item.MarkCancelled();
+            DeletePartialFile(item.DestinationPath);
         }
         catch
         {
@@ -84,6 +91,12 @@ public class DownloadQueueManager
     {
         _items.RemoveAll(i => i.Status is DownloadStatus.Completed or DownloadStatus.Failed or DownloadStatus.Cancelled);
         QueueStateChanged?.Invoke(this, EventArgs.Empty);
+    }
+
+    private static void DeletePartialFile(string path)
+    {
+        try { if (File.Exists(path)) File.Delete(path); }
+        catch { /* file might still be held open for a moment, just leave it */ }
     }
 
     private static string DeriveFileName(string url)
